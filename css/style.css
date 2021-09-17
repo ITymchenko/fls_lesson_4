@@ -1,0 +1,192 @@
+/* --------Шрифты------------------- */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700&display=swap&subset=cyrillic-ext");
+
+@import url("https://fonts.googleapis.com/css?family=Merriweather:regular,700,900&display=swap&subset=cyrillic-ext");
+
+@font-face {
+    font-family: "Freigeist XWide";
+    src: url('../fonts/FreigeistXWide-Medium.woff2') format('woff2'), url('../fonts/FreigeistXWide-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Aventa";
+    src: url('../fonts/Aventa-Medium.woff2') format('woff2'), url('../fonts/Aventa-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* ---------Обнуление-------------- */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+/*------- Контент---------------*/
+
+._uppertext {
+    text-transform: uppercase;
+}
+
+nav p {
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #fff12b;
+    margin-bottom: 10px;
+}
+
+.navigation {
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0b1189;
+    text-shadow: 1px 1px 2px #ff0040;
+}
+
+.link,
+a.link {
+    font-family: "Aventa", sans-serif;
+    color: #fff700;
+    font-size: 20px;
+}
+
+.main-content {
+    text-align: justify;
+}
+
+.title {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #c207fb;
+    text-shadow: 4px 3px 3px #000;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text>p>span {
+    font-weight: 700;
+    color: #000;
+}
+
+.text {
+    color: #0a3b36;
+}
+
+.subtitle {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #ff0080;
+    text-shadow: 1px 1px 1px #000;
+    margin: 10px 0 10px 0;
+}
+
+.small-title {
+    font-family: "Freigeist XWide", sans-serif;;
+    font-size: 19px;
+    color: #1d08ff;
+    text-shadow: 1px 1px 1px #000;
+    margin: 10px 0 10px 0;
+}
+
+.text-space p {
+    text-align: center;
+    word-spacing: 10px;
+    color: #000000;
+    text-shadow: -1px 10px 20px #fd0000;
+}
+
+.indent p {
+    text-indent: 50px;
+    font-weight: 500;
+}
+
+.text-transform p {
+    text-transform: capitalize;
+}
+
+.text-through {
+    text-decoration: line-through;
+}
+
+.div-background {
+    background-color: #fff12b;
+}
+
+.div-background p {
+    color: #ff0000;
+    letter-spacing: 10px;
+}
+
+.text p.selected {
+    text-decoration: underline;
+}
+
+.text-upper + * {
+    font-size: 20px;
+    color: #fd0000;
+}
+
+.list {
+    background-color: #ff0080;
+    text-align: left;
+}
+
+.list>li + * {
+    letter-spacing: 4px;
+} 
+
+.literature {
+    text-shadow: 1px 1px 1px #000;
+    font-weight: 700;
+}
